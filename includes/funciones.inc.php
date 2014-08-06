@@ -101,3 +101,62 @@ function miles($num){
 			echo $num;
 		}
 	}
+
+#función para colocar los nombres de los meses en español 
+#Formato: 20 de MES de 1978
+function mesLargo($fecha){
+	
+	#formato de fecha día mes año
+	$meses = array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+	$fecha_larga = new DateTime($fecha);
+	$fecha_larga=$fecha_larga->format('d \d\e F \d\e Y');
+
+	#Nombre de los meses en español
+	if(strpos($fecha_larga,'January')){
+		return str_replace($meses,'enero',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'February')){
+		return str_replace($meses,'febrero',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'March')){
+		return str_replace($meses,'marzo',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'April')){
+		return str_replace($meses,'abril',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'May')){
+		return str_replace($meses,'mayo',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'June')){
+		return str_replace($meses,'junio',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'July')){
+		return str_replace($meses,'julio',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'August')){
+		return str_replace($meses,'agosto',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'September')){
+		return str_replace($meses,'septiembre',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'October')){
+		return str_replace($meses,'octubre',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'November')){
+		return str_replace($meses,'noviembre',$fecha_larga);
+		}
+	else if(strpos($fecha_larga,'December')){
+		return str_replace($meses,'diciembre',$fecha_larga);
+		}
+	}
+
+#Función para colocar el formato de fecha DD-MM-AA 
+#Formato 20-11-1978 (fecha_corta)
+function mesCorto($fecha){
+	
+	$fecha_corta = new DateTime($fecha);
+	$fecha_corta=$fecha_corta->format('d-m-Y');
+	return $fecha_corta;
+	
+	}
