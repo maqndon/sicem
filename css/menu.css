@@ -1,0 +1,23 @@
+#menulateral {
+	position:absolute;
+	top:170px;
+	left:0px;
+	}
+
+#menulateral div {
+	font-weight:bold;
+	/*text-decoration:underline;*/	text-align:left;
+	}
+
+#leyenda {
+	font-style:italic;	position: absolute;	left:220px;
+	font-size:12px;	top:170px;	}
+#leyenda div {	padding: 5px 0px;
+	}
+
+ul {	padding: 0;	margin: 0;	font-family:arial;
+	font-size:12px;	/*width:190px;*/
+	}ul li:hover > ul {	display: block;	position: absolute;	top: -1px;	/*left: 100%;	*/	}
+li a {	display: block;	padding: 5px 7px;	text-decoration: none;	}
+li a:hover {	padding: 5px 9px;	}ul ul {	display: none;	}
+ul li {	list-style-type: none;	border-width: 1px 1px 0px 4px;	position: relative;	margin: 0;	padding: 0;	}

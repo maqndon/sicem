@@ -1,0 +1,165 @@
+/* DIV del marco del sistema en si */
+#marco {
+  /*height:500px;*/
+  }
+  
+/* DIV del contenido del sistema en si */
+#contenido {
+  position:relative;
+  left:150px;
+  /*height:460px;*/
+  width:800px;
+  }
+
+/*listado de estados*/
+
+#listado li {
+	list-style-type:circle;
+	padding:2px;
+	}
+	
+#listado li a {
+	padding: 2px 7px;
+	display: inline;
+	}
+
+#listado li a:hover {
+	padding: 2px 9px;
+	}
+/* */
+
+fieldset div {
+	padding:2.5px;	
+	}
+
+#col_iz {
+	width:300px;
+	}
+	
+#col_der{
+	position:absolute;
+	top:0%;
+	left:50%;
+	width:305px;
+	}
+	
+#datos {
+	position:relative;
+	top:5px;
+}
+
+#datos select {
+	background-color:#eeeeff;
+	text-align:right;
+	width:209px;
+	border: 1px solid #c3d9cc;
+	padding: 2px;
+	}
+
+#datos input {
+	padding: 3px;
+	}
+
+#datos textarea {
+	position:relative;
+	right:1%;
+	width:84.5%;
+	border: 1px solid #c3d9cc;
+	}
+
+.center {
+	text-align:center;
+}
+
+.right {
+	text-align:right;
+}
+
+.left {
+	text-align:left;
+}
+
+#error {
+	font-size:11px;
+	text-align:center;
+	border:1px solid red;
+	background-color: #FBEFEF;
+  	margin: auto;
+  	width:300px;
+  	padding:3px;
+	}
+
+#errorDiv {
+	font-size:11px;
+	text-align:center;
+	border:1px solid red;
+	background-color: #FBEFEF;
+  	position:relative;
+  	top:25%;
+  	margin: auto;
+	}
+	
+#errorDiv p {
+  	position:relative;
+  	top:35%;
+	}
+
+#exitoDiv {
+	font-size:11px;
+	text-align:center;
+	border:1px solid #c3d9cc;
+	background-color: #f0f7f9;
+  	position:relative;
+  	top:25%;
+  	margin: auto;
+}
+
+.marca{
+	list-style-type:circle;
+	color:#c3d9cc;
+}
+
+#buscar input{
+	padding:2px;
+}
+
+#errorFotoDiv .errorFoto {
+	position:relative;
+	top:10px;
+	left:-4%;
+	width:200px;
+	margin:auto;
+	text-align:center;
+	font-size:11px;
+	border:1px solid red;
+	background-color: #FBEFEF;
+	}
+	
+#contenido .soporte {
+	text-align:left;
+}
+
+#cambioClave #derecha {
+	text-align:right;
+}
+
+#cambioClave {
+	width:500px;
+}
+
+#mensaje{
+	position:relative;
+	top:5px;
+}
+
+#buscar{
+	width:300px;
+}
+
+#tooltip {
+	position: absolute;
+	padding: 4px;
+	opacity: 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
