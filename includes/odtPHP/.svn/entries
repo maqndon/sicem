@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2008-09-01T10:13:04.350771Z"
+   url="https://odtphp.svn.sourceforge.net/svnroot/odtphp/trunk"
+   last-author="doctorrock"
+   kind="dir"
+   uuid="6ab21817-76a0-485f-9323-32ec696793d2"
+   repos="https://odtphp.svn.sourceforge.net/svnroot/odtphp"
+   revision="1"/>
+<entry
+   name="tests"
+   kind="dir"/>
+<entry
+   name="library"
+   kind="dir"/>
+<entry
+   name="documentation"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,137 @@
+/* Recuadro de validacion */
+#validacion {
+  border: solid 1px #c3d9cc;
+  background-color:#f0f7f9;
+  font-size:14px;
+  position:relative;
+  top:150px;
+  margin: auto;
+  width:270px;
+  text-align:right;
+  padding:5px;
+  }
+  
+#validacion div {
+  padding:4px;
+  }
+
+/* boton de ingreso al sistema */
+.boton {
+	font-size:10px;
+	cursor:pointer;
+	height:32px;
+	padding: 4px 18px 4px 18px;
+	border:1px solid #fff;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;	
+	-webkit-border-radius:5px;
+	/*border-radius:3px;*/
+	background:#21759b;
+	color:#fff;
+	}
+
+/* Estilos cuando tiene el ratón encima */
+.boton:hover {
+	font-size:10px;
+	cursor:pointer;
+	height:32px;
+	padding:4px 18px 4px 18px;
+	border:1px solid #ccc;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;	
+	-webkit-border-radius:5px;
+	/*border-radius:3px;*/
+	/*background:#fe9a2e;*/
+	background:#53830a;
+	color:#fff;
+	}
+
+/* Div Mensaje */
+#mensaje, #mensajeEmail{
+	padding:4px;
+	font-size:11px;
+	text-align:center;
+	border:1px solid red;
+	background-color: #FBEFEF;
+	margin: auto;
+	width:240px;
+	}
+	
+#navegador{
+	position:relative;
+	top:200px;
+	text-align:center;
+	border:1px solid red;
+	background-color:#FBEFEF;
+	width:800px;
+	height:15px;
+	padding:4px;
+}
+
+/* Mensaje Error */
+#mensajeValidacion {
+	font-size:11px;
+	text-align:center;
+	border:1px solid red;
+	background-color: #FBEFEF;
+  	position:relative;
+  	top:150px;
+  	margin: auto;
+  	width:270px;
+	height:200px;
+	}
+
+#mensajeValidacion div {
+	margin-top:30%;
+  	padding:4px;
+	}
+
+/* Mensaje Error */
+#claveDiv {
+	font-size:11px;
+	text-align:center;
+	border:1px solid #c3d9cc;
+	background-color: #f0f7f9;
+  	position:relative;
+  	top:-55px;
+ 	margin: auto;
+  	width:280px;
+	height:205px;
+	}
+
+#claveDiv .pading{
+	font-weight:bold;
+  	padding:12px 2px;
+	font-size:12px;
+	}
+
+#claveDiv input{
+  	padding:3px;
+	}
+	
+/* DIV del marco del sistema en si */
+#marco {
+  height:500px;
+  }
+  
+#cuatroCeroUno {
+	/*background-image: url("../imagenes/32x32/emblems/emblem-important.png");*/
+	background-image: url("../imagenes/32x32/status/dialog-warning.png");
+	background-repeat:no-repeat;
+	background-position:0% 65%;
+	height:50px;
+	}
+
+#cuatroCeroUno {
+	position:relative;
+	left:300px;
+	top:150px;
+	text-align:center;
+	padding:15px;
+	width:320px;
+	height:50px;
+	/*
+	border: 2px solid #c3d9cc;
+	background-color: #f0f7f9;
+	*/
+	}

@@ -1,0 +1,221 @@
+/*
+* {
+  padding:0;
+  margin:0;
+  }
+*/
+
+body {
+  font-size: 76%;
+  }
+
+a {
+  outline-style: none;
+  }
+
+/*inputs del sistema*/
+
+input {
+	border: 1px solid #c3d9cc;
+}
+
+/* tipo de letra y espaciado del sistema */
+body {
+  	font-family:arial;
+	letter-spacing:0.2px;
+	}
+
+/* DIV pincipal, en donde se van a alojar los demas DIVs */
+#contenedor {
+  position:relative;
+  margin: 0 auto;
+  width:1080px;
+  }
+
+/* DIV del encabezado del sistema */
+#gobierno {
+  position:relative;
+  /*margin: auto;*/
+  margin-left:60px;
+  height:60px;
+  }
+
+/* DIV en donde del nombre del sistema*/
+#sistema {
+  text-align:center;
+  }
+
+/* DIV del usuario validado y la ruta del sistema  */
+#bienvenida {
+	font-size:12px;
+	}
+
+/* DIV del titulo del marco del sistema*/
+#tituloMarco {
+  font-size:18px;
+  text-align:center;
+  }
+  
+  /* Encabezado del Sistema */
+
+.encabezadoGob {
+	font-size:23px;
+	}
+
+.encabezadoMin {
+	font-size:15px;
+	}
+
+.encabezadoBarra {
+	font-size:39px;
+	}
+
+.gris {
+	color:#959291;
+	}
+
+.grisBold {
+	font-weight:bold;
+	color:#605755;
+	}
+
+#gob {
+	position:absolute;
+	bottom:0px;
+	left:60px;
+	}
+
+#bolivariano {
+	width:300px;
+	position:absolute;
+	bottom:20px;
+	}
+
+#bar {
+	font-weight:bold;
+	position:absolute;
+	top:11px;
+	left:295px;
+	}
+	
+#segbar {
+	font-weight:bold;
+	position:absolute;
+	top:11px;
+	left:500px;
+	}
+
+#terbar {
+	font-weight:bold;
+	position:absolute;
+	top:11px;
+	left:635px;
+	}		
+
+#min {
+	width:200px;
+	position:absolute;
+	bottom:0px;
+	left:310px;
+	}
+	
+#vicmin {
+	position:absolute;
+	bottom:0px;
+	left:515px;
+	}
+	
+#dgmi {
+	position:absolute;
+	bottom:0px;
+	left:650px;
+	}
+
+#popular{
+	position:absolute;
+	bottom:15px;
+	}
+
+#logo{
+	position:absolute;
+	bottom:-22px;
+	left:800px;
+	}
+
+/* Fin Encabezado del Sistema */
+
+/* DIV de los derechos del sistema y la tecnología utilizada */
+
+#derechos {
+  position:relative;
+  top:35px;
+  text-align:center;
+  font-size:11px;
+  }
+
+img {
+  border:none;
+  }
+
+.centrado{
+  text-align:center;
+  }
+
+.rojo {
+	font-weight:bold;
+	color:red;
+	}
+
+.left {
+	text-align:left;
+	}
+
+.right {
+	text-align:right;
+	}
+	
+/*Estilos de las tablas*/
+.tbl_title {
+	height:20px;
+	width:250px;
+	text-align:center;
+	font-weight:bold;
+	background:#c9e1f4;
+	}
+
+.tbl_titulo {
+	height:20px;
+	width:250px;
+	text-align:center;
+	font-weight:bold;
+	background:#dde4ff;
+	}
+	
+.tbl_titulo:hover {
+	height:20px;
+	width:250px;
+	text-align:center;
+	font-weight:bold;
+	background:#ffcc66;
+	}
+	
+#tbl_sobre:hover {
+	background:#d0f5a9;
+	}
+	
+.tbl_gris{
+	background:#e6e7e8;
+}
+
+
+table {
+	text-align:center;
+	position: relative;
+	left:7%;
+}
+
+table a {
+	color:#333333;
+	text-decoration: none;
+}
+
